@@ -1,13 +1,13 @@
 import React from "react";
 import { StatusBar } from "react-native";
 
-import Album from "./components/Album";
-import BottomTab from "./components/BottomTab";
-import LoadAssets from "./components/LoadAssets";
+import Album from "./src/components/Album";
+import BottomTab from "./src/components/BottomTab";
+import LoadAssets from "./src/components/LoadAssets";
 
 const assets = [
-  require("./assets/Jan-Blomqvist.jpg"),
-  require("./assets/thebay.jpg")
+  require("./src/assets/Jan-Blomqvist.jpg"),
+  require("./src/assets/thebay.jpg")
 ];
 
 export default function App() {
