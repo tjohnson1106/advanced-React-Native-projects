@@ -28,19 +28,19 @@ export default ({ track, artist, index }: TrackProps) => (
 const styles = StyleSheet.create({
   row: {
     flexDirection: "row",
-    backgroundColor: "black",
+    backgroundColor: "black"
   },
   cell: {
     padding: 16,
-    justifyContent: "center",
+    justifyContent: "center"
   },
   index: {
-    color: "#b2b3b4",
+    color: "#b2b3b4"
   },
   artist: {
-    color: "#b2b3b4",
+    color: "#b2b3b4"
   },
   name: {
-    color: "white",
-  },
+    color: "white"
+  }
 });
